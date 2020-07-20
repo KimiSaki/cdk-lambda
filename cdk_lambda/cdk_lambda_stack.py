@@ -14,3 +14,6 @@ class CdkLambdaStack(core.Stack):
             handler="index.lambda_handler",
             function_name="sample_lambda_function"
         )
+
+        # 環境変数を追加
+        lambdaFn.add_environment(key="STAGE", value="DEV")
