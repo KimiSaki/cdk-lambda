@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cdk-lambda = {editable = true, file = "file:///Users/kimizukasaki/workspace/cdk-lambda"}
+"aws-cdk.core" = "*"
+"aws-cdk.aws-lambda" = "*"
+
+[requires]
+python_version = "3.7"
