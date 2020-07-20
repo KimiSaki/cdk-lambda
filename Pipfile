@@ -9,6 +9,8 @@ verify_ssl = true
 cdk-lambda = {editable = true, file = "file:///Users/kimizukasaki/workspace/cdk-lambda"}
 "aws-cdk.core" = "*"
 "aws-cdk.aws-lambda" = "*"
+"aws-cdk.aws-s3" = "*"
+"aws-cdk.aws-s3-notifications" = "*"
 
 [requires]
 python_version = "3.7"
